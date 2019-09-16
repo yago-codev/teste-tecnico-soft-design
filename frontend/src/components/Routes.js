@@ -21,7 +21,6 @@ import {
 } from '../history'
 
 const Routes = () => (
-  // <BrowserRouter>
   <Router history={history}>
     <Switch>
       <Route component={Register} exact path="/" />
@@ -33,7 +32,6 @@ const Routes = () => (
       <PrivateRoute component={NotFound} />
     </Switch>
   </Router >
-  // </BrowserRouter>
 )
 
 export default Routes

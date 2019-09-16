@@ -18,7 +18,7 @@ export default class Header extends Component {
           <div >
             <Link className="link container-logo" to="/dashboard">
               <img src={logo}/>
-              <h1 className="title-logo">South Dragons</h1>
+              <h1 className="title-logo">Soft Dragons</h1>
             </Link>
           </div>
 
